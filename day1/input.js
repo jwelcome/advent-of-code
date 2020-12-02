@@ -1,4 +1,4 @@
-const nums = `1531
+module.exports = `1531
 1959
 1344
 1508
@@ -198,5 +198,3 @@ const nums = `1531
 1905
 1786
 1281`;
-
-module.exports = nums.split('\n').map(num => parseInt(num));
