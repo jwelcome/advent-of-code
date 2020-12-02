@@ -10,14 +10,16 @@ const testInput = `1721
 	675
 	1456`;
 
-describe("Part 1", () => {
-	it("should return 514579", () => {
-		assert.strictEqual(part1(testInput, 2020), 514579);
+describe("Day 1", () => {
+	describe("Part 1", () => {
+		it("should return 514579", () => {
+			assert.strictEqual(part1(testInput, 2020), 514579);
+		});
 	});
-});
-
-describe("Part 2", () => {
-	it("should return 241861950", () => {
-		assert.strictEqual(part2(testInput), 241861950);
+	
+	describe("Part 2", () => {
+		it("should return 241861950", () => {
+			assert.strictEqual(part2(testInput), 241861950);
+		});
 	});
 });
