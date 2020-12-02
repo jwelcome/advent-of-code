@@ -6,6 +6,7 @@
     "author": "",
     "license": "MIT",
     "scripts": {
+        "lint": "eslint .",
         "test": "mocha day*/**/test.js"
     },
     "repository": {
@@ -13,6 +14,7 @@
         "url": "https://github.com/jwelcome/advent-of-code"
     },
     "devDependencies": {
-        "mocha": "^8.2.1"
+        "eslint": "7.14.0",
+        "mocha": "8.2.1"
     }
 }
