@@ -4,11 +4,11 @@ const part1 = require("./part1");
 const part2 = require("./part2");
 
 const testInput = `1721
-	979
-	366
-	299
-	675
-	1456`;
+979
+366
+299
+675
+1456`;
 
 describe("Day 1", () => {
 	describe("Part 1", () => {
