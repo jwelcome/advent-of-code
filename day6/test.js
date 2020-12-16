@@ -19,7 +19,7 @@ a
 
 b`;
 
-describe.only("Day 6", () => {
+describe("Day 6", () => {
 	describe("Part 1", () => {
 		it("should return the sum of anyone's yes questions", () => {
 			assert.strictEqual(part1(testInput), 11);
