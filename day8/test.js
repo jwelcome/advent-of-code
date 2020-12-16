@@ -20,9 +20,9 @@ describe("Day 8", () => {
         });
     });
 
-    // describe("Part 2", () => {
-    //     it("returns an accumulator value of 8", () => {
-    //         assert.strictEqual(part2(testInput), 8);
-    //     });
-    // });
+    describe("Part 2", () => {
+        it("returns an accumulator value of 8", () => {
+            assert.strictEqual(part2(testInput), 8);
+        });
+    });
 });
